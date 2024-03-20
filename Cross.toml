@@ -1,0 +1,5 @@
+[target.armv7-unknown-linux-gnueabihf.env]
+image= "armv7-unknown-linux-gnueabihf"
+
+[target.x86_64-unknown-linux-gnu.env]
+image = "x86_64-unknown-linux-gnu"
