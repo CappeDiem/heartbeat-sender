@@ -22,7 +22,7 @@ fn main() {
 }
 
 fn send_heartbeat(url:String) -> Result<(), Box<dyn Error>> {
-    let resp = reqwest::blocking::get(url)?.text()?;
+    let _resp = reqwest::blocking::get(url)?.text()?;
     //println!("{:#?}", resp);
     println!("INFO: Heartbeat Sent");
     Ok(())
