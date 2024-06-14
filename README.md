@@ -1,5 +1,6 @@
 ## Heartbeat sender
-Created as a way to monitor servers that are not pingable to Uptime Kuma instance using push type monitor
+Created as a way to monitor servers that are not pingable to Uptime Kuma instance using push type monitor. 
+(*There would have been a better way to do this but wanted to do something in rust so did this*)
 
 ## Environment variables
 ``HEARTBEAT_URL`` URL that the application uses for a get request
